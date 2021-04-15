@@ -14,4 +14,8 @@ public class App extends SugarApp {
     public void onTerminate() {
         super.onTerminate();
     }
+
+    public void init(){
+
+    }
 }
