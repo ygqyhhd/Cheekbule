@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.handmark.pulltorefresh.samples"
+4    android:versionCode="2110"
+5    android:versionName="2.1.1" >
+6
+7    <uses-sdk
+7-->E:\celsius\sample\src\main\AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="4"
+8-->E:\celsius\sample\src\main\AndroidManifest.xml:8:9-34
+9        android:targetSdkVersion="15" />
+9-->E:\celsius\sample\src\main\AndroidManifest.xml:9:9-38
+10
+11    <!-- For WebView Sample -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->E:\celsius\sample\src\main\AndroidManifest.xml:67:5-67
+12-->E:\celsius\sample\src\main\AndroidManifest.xml:67:22-64
+13
+14    <supports-screens android:anyDensity="true" />
+14-->E:\celsius\sample\src\main\AndroidManifest.xml:69:5-51
+14-->E:\celsius\sample\src\main\AndroidManifest.xml:69:23-48
+15
+16    <application
+16-->E:\celsius\sample\src\main\AndroidManifest.xml:11:5-64:19
+17        android:debuggable="true"
+18        android:hardwareAccelerated="true"
+18-->E:\celsius\sample\src\main\AndroidManifest.xml:12:9-43
+19        android:icon="@drawable/icon"
+19-->E:\celsius\sample\src\main\AndroidManifest.xml:13:9-38
+20        android:label="@string/app_name" >
+20-->E:\celsius\sample\src\main\AndroidManifest.xml:14:9-41
+21        <activity
+21-->E:\celsius\sample\src\main\AndroidManifest.xml:15:9-23:20
+22            android:name="com.handmark.pulltorefresh.samples.LauncherActivity"
+22-->E:\celsius\sample\src\main\AndroidManifest.xml:16:13-45
+23            android:label="PullToRefresh Samples" >
+23-->E:\celsius\sample\src\main\AndroidManifest.xml:17:13-50
+24            <intent-filter>
+24-->E:\celsius\sample\src\main\AndroidManifest.xml:18:13-22:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->E:\celsius\sample\src\main\AndroidManifest.xml:19:17-69
+25-->E:\celsius\sample\src\main\AndroidManifest.xml:19:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->E:\celsius\sample\src\main\AndroidManifest.xml:21:17-77
+27-->E:\celsius\sample\src\main\AndroidManifest.xml:21:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->E:\celsius\sample\src\main\AndroidManifest.xml:24:9-27:20
+31            android:name="com.handmark.pulltorefresh.samples.PullToRefreshListActivity"
+31-->E:\celsius\sample\src\main\AndroidManifest.xml:25:13-54
+32            android:label="PtR ListView" >
+32-->E:\celsius\sample\src\main\AndroidManifest.xml:26:13-41
+33        </activity>
+34        <activity
+34-->E:\celsius\sample\src\main\AndroidManifest.xml:28:9-31:20
+35            android:name="com.handmark.pulltorefresh.samples.PullToRefreshListFragmentActivity"
+35-->E:\celsius\sample\src\main\AndroidManifest.xml:29:13-62
+36            android:label="PtR ListView Fragment" >
+36-->E:\celsius\sample\src\main\AndroidManifest.xml:30:13-50
+37        </activity>
+38        <activity
+38-->E:\celsius\sample\src\main\AndroidManifest.xml:32:9-35:20
+39            android:name="com.handmark.pulltorefresh.samples.PullToRefreshListInViewPagerActivity"
+39-->E:\celsius\sample\src\main\AndroidManifest.xml:33:13-65
+40            android:label="PtR ListView in ViewPager" >
+40-->E:\celsius\sample\src\main\AndroidManifest.xml:34:13-54
+41        </activity>
+42        <activity
+42-->E:\celsius\sample\src\main\AndroidManifest.xml:36:9-39:20
+43            android:name="com.handmark.pulltorefresh.samples.PullToRefreshGridActivity"
+43-->E:\celsius\sample\src\main\AndroidManifest.xml:37:13-54
+44            android:label="PtR GridView" >
+44-->E:\celsius\sample\src\main\AndroidManifest.xml:38:13-41
+45        </activity>
+46        <activity
+46-->E:\celsius\sample\src\main\AndroidManifest.xml:40:9-43:20
+47            android:name="com.handmark.pulltorefresh.samples.PullToRefreshExpandableListActivity"
+47-->E:\celsius\sample\src\main\AndroidManifest.xml:41:13-64
+48            android:label="PtR ExpandableListView" >
+48-->E:\celsius\sample\src\main\AndroidManifest.xml:42:13-51
+49        </activity>
+50        <activity
+50-->E:\celsius\sample\src\main\AndroidManifest.xml:44:9-47:20
+51            android:name="com.handmark.pulltorefresh.samples.PullToRefreshWebViewActivity"
+51-->E:\celsius\sample\src\main\AndroidManifest.xml:45:13-57
+52            android:label="PtR WebView" >
+52-->E:\celsius\sample\src\main\AndroidManifest.xml:46:13-40
+53        </activity>
+54        <activity
+54-->E:\celsius\sample\src\main\AndroidManifest.xml:48:9-51:20
+55            android:name="com.handmark.pulltorefresh.samples.PullToRefreshScrollViewActivity"
+55-->E:\celsius\sample\src\main\AndroidManifest.xml:49:13-60
+56            android:label="PtR ScrollView" >
+56-->E:\celsius\sample\src\main\AndroidManifest.xml:50:13-43
+57        </activity>
+58        <activity
+58-->E:\celsius\sample\src\main\AndroidManifest.xml:52:9-55:20
+59            android:name="com.handmark.pulltorefresh.samples.PullToRefreshHorizontalScrollViewActivity"
+59-->E:\celsius\sample\src\main\AndroidManifest.xml:53:13-70
+60            android:label="PtR HorizontalScrollView" >
+60-->E:\celsius\sample\src\main\AndroidManifest.xml:54:13-53
+61        </activity>
+62        <activity
+62-->E:\celsius\sample\src\main\AndroidManifest.xml:56:9-59:20
+63            android:name="com.handmark.pulltorefresh.samples.PullToRefreshViewPagerActivity"
+63-->E:\celsius\sample\src\main\AndroidManifest.xml:57:13-59
+64            android:label="PtR ViewPager" >
+64-->E:\celsius\sample\src\main\AndroidManifest.xml:58:13-42
+65        </activity>
+66        <activity
+66-->E:\celsius\sample\src\main\AndroidManifest.xml:60:9-63:20
+67            android:name="com.handmark.pulltorefresh.samples.PullToRefreshWebView2Activity"
+67-->E:\celsius\sample\src\main\AndroidManifest.xml:61:13-58
+68            android:label="PtR WebView Advanced" >
+68-->E:\celsius\sample\src\main\AndroidManifest.xml:62:13-49
+69        </activity>
+70    </application>
+71
+72</manifest>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/overall"
+   >
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/supper"
+        android:id="@+id/button"
+        android:background="@color/colorLogin"
+        android:layout_marginBottom="20px"
+        android:fontFamily="@font/roman"
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:background="@color/colorSign"
+        android:text="@string/is_turn_on" />
+
+    <Button
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorSign"
+        android:layout_marginBottom="20px"
+        android:text="ListView" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:background="@color/colorSign"
+        android:text="获取广播包" />
+
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:background="@color/colorSign"
+        android:text="机器人" />
+
+    <Button
+        android:id="@+id/bluetooth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:background="@color/colorSign"
+        android:text="打开蓝牙" />
+    <Button
+        android:id="@+id/bluetooth_off"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:background="@color/colorSign"
+        android:text="关闭蓝牙" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20px"
+        android:background="@color/colorSign"
+        android:text="扫一扫" />
+
+
+    <include
+        layout="@layout/smart_broadcast_layout"/>
+
+
+</LinearLayout>

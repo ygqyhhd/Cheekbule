@@ -1,0 +1,45 @@
+{
+    "logs": [
+        {
+            "outputFile": "E:\\celsius\\sample\\build\\intermediates\\res\\merged\\debug\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "E:\\celsius\\sample\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "115",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "459"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "3076",
+                        "endLines": "11",
+                        "endColumns": "12",
+                        "endOffsets": "3420"
+                    }
+                },
+                {
+                    "source": "E:\\celsius\\sample\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "4,5,3",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "126,184,56",
+                        "endColumns": "57,2892,69",
+                        "endOffsets": "179,3072,121"
+                    },
+                    "to": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,113,3006",
+                        "endColumns": "57,2892,69",
+                        "endOffsets": "108,3001,3071"
+                    }
+                }
+            ]
+        }
+    ]
+}
